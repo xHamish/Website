@@ -94,20 +94,20 @@
 		body.loading * {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
-			-ms-animation: none !important;
+			-o-animation: none !important;
 			animation: none !important;
 		}
 
-	a {
-		-moz-transition: border-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: inherit;
-		outline: 0;
-		text-decoration: none;
-	}
+a {
+	-moz-transition: border-color 0.2s ease-in-out;
+	-webkit-transition: border-color 0.2s ease-in-out;
+	-o-transition: border-color 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
+	border-bottom: dotted 1px;
+	color: inherit;
+	outline: 0;
+	text-decoration: none;
+}
     
 		a:hover {
 			border-color: transparent;
@@ -197,7 +197,7 @@
 	#wrapper {
 		-moz-animation: wrapper 3s forwards;
 		-webkit-animation: wrapper 3s forwards;
-		-ms-animation: wrapper 3s forwards;
+		-o-animation: wrapper 3s forwards;
 		animation: wrapper 3s forwards;
 		height: 100%;
 		left: 0;
@@ -376,11 +376,10 @@
 	#header {
 		-moz-animation: header 1s 2.25s forwards;
 		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
+		-o-animation: header 1s 2.25s forwards;
 		animation: header 1s 2.25s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
-		-ms-backface-visibility: hidden;
 		backface-visibility: hidden;
 		-moz-transform: translate3d(0,0,0);
 		-webkit-transform: translate3d(0,0,0);
@@ -416,11 +415,10 @@
 			#header nav li {
 				-moz-animation: nav-icons 0.5s ease-in-out forwards;
 				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
-				-ms-animation: nav-icons 0.5s ease-in-out forwards;
+				-o-animation: nav-icons 0.5s ease-in-out forwards;
 				animation: nav-icons 0.5s ease-in-out forwards;
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
-				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
 				-moz-transform: translate3d(0,0,0);
 				-webkit-transform: translate3d(0,0,0);
@@ -438,70 +436,60 @@
 				#header nav li:nth-child(1) {
 					-moz-animation-delay: 2.5s;
 					-webkit-animation-delay: 2.5s;
-					-ms-animation-delay: 2.5s;
 					animation-delay: 2.5s;
 				}
 
 				#header nav li:nth-child(2) {
 					-moz-animation-delay: 2.75s;
 					-webkit-animation-delay: 2.75s;
-					-ms-animation-delay: 2.75s;
 					animation-delay: 2.75s;
 				}
 
 				#header nav li:nth-child(3) {
 					-moz-animation-delay: 3s;
 					-webkit-animation-delay: 3s;
-					-ms-animation-delay: 3s;
 					animation-delay: 3s;
 				}
 
 				#header nav li:nth-child(4) {
 					-moz-animation-delay: 3.25s;
 					-webkit-animation-delay: 3.25s;
-					-ms-animation-delay: 3.25s;
 					animation-delay: 3.25s;
 				}
 
 				#header nav li:nth-child(5) {
 					-moz-animation-delay: 3.5s;
 					-webkit-animation-delay: 3.5s;
-					-ms-animation-delay: 3.5s;
 					animation-delay: 3.5s;
 				}
 
 				#header nav li:nth-child(6) {
 					-moz-animation-delay: 3.75s;
 					-webkit-animation-delay: 3.75s;
-					-ms-animation-delay: 3.75s;
 					animation-delay: 3.75s;
 				}
 
 				#header nav li:nth-child(7) {
 					-moz-animation-delay: 4s;
 					-webkit-animation-delay: 4s;
-					-ms-animation-delay: 4s;
 					animation-delay: 4s;
 				}
 
 				#header nav li:nth-child(8) {
 					-moz-animation-delay: 4.25s;
 					-webkit-animation-delay: 4.25s;
-					-ms-animation-delay: 4.25s;
 					animation-delay: 4.25s;
 				}
 
 				#header nav li:nth-child(9) {
 					-moz-animation-delay: 4.5s;
 					-webkit-animation-delay: 4.5s;
-					-ms-animation-delay: 4.5s;
 					animation-delay: 4.5s;
 				}
 
 				#header nav li:nth-child(10) {
 					-moz-animation-delay: 4.75s;
 					-webkit-animation-delay: 4.75s;
-					-ms-animation-delay: 4.75s;
 					animation-delay: 4.75s;
 				}
 
@@ -515,7 +503,7 @@
 				#header nav a:before {
 					-moz-transition: all 0.2s ease-in-out;
 					-webkit-transition: all 0.2s ease-in-out;
-					-ms-transition: all 0.2s ease-in-out;
+					-o-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
 					border: solid 1px #fff;
@@ -557,7 +545,6 @@
 	#footer {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		bottom: 0;
 		cursor: default;
